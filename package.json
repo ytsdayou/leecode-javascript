@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0001.Two-Sum/"
+    "test": "jest ./test/medium/0002.Add-Two-Numbers/"
   },
   "keywords": [
     "leecode",
