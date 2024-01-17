@@ -7,7 +7,6 @@ describe("0002.Add-Two-Numbers", () => {
         const l1 = ArrayToListNode( [2,4,3] ),
               l2 = ArrayToListNode( [5,6,4] );
         const result = ArrayToListNode( [7,0,8] );
-        console.log(addTwoNumbers( l1, l2 ), ArrayToListNode( [7,0,8] ))
         expect( addTwoNumbers( l1, l2 ) ).toBeEqualListNode( result );
     });
 
