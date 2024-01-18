@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0002.Add-Two-Numbers/"
+    "test": "jest ./test/medium/0003. Longest Substring Without Repeating Characters/"
   },
   "keywords": [
     "leecode",
