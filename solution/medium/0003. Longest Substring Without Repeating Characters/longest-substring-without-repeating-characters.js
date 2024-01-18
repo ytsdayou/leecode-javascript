@@ -2,7 +2,7 @@
  * We can solve this problem using the sliding window technique.
  * 1. Initialize two pointers, `slow` and `fast`, to mark the 
  *    current substring.
- * 2. Move the `fast` pointer to the end one step at a time, and
+ * 2. Move the `fast` pointer to right one step at a time, and
  *    keep track of the characters seen so far using a hashmap.
  * 3. If a repeating character is found from the hashmap, move `slow`
  *    pointer to right to shrink the window until the repeating character
