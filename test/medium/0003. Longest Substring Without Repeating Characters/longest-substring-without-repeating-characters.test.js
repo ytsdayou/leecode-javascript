@@ -2,7 +2,7 @@ import {
     lengthOfLongestSubstring 
 } from "../../../solution/medium/0003. Longest Substring Without Repeating Characters/longest-substring-without-repeating-characters";
 
-describe("0002.Add-Two-Numbers", () => {
+describe("0003. Longest Substring Without Repeating Characters", () => {
 
     test('Input: s = "abcabcbb", Output should be 3', () => {
         expect( lengthOfLongestSubstring( "abcabcbb" ) ).toEqual( 3 );
