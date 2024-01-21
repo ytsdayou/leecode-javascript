@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/0004.Median-of-Two-Sorted-Arrays/"
+    "test": "jest ./test/easy/0088.Merge-Sorted-Array/"
   },
   "keywords": [
     "leecode",

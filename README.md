@@ -4,7 +4,7 @@
 ```
 npm install -g jest
 ```
-After the installation is complete, run jest --version to verify that it has been installed correctly.
+After the installation is complete, run `jest --version` to verify that it has been installed correctly.
 
 ## Run Test
 ```
