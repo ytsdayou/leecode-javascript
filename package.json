@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0088.Merge-Sorted-Array/"
+    "test": "jest ./test/easy/0027.Remove-Element/"
   },
   "keywords": [
     "leecode",
