@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0080.Remove-Duplicates-from-Sorted-Array-II/"
+    "test": "jest ./test/easy/0169.Majority-Element/"
   },
   "keywords": [
     "leecode",
