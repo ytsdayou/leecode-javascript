@@ -2,7 +2,7 @@ import {
     majorityElement, majorityElement2
 } from "../../../solution/easy/0169.Majority-Element/majority-element";
 
-describe("0080.Remove-Duplicates-from-Sorted-Array-II", () => {
+describe("0169.Majority-Element/majority-element", () => {
 
     test('Input: nums = [3,2,3], Output: 3', () => {
         expect( majorityElement( [3,2,3] ) ).toEqual( 3 );
