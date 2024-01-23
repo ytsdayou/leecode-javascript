@@ -29,3 +29,37 @@ export const majorityElement = function(nums) {
         }
     }
 };
+
+/**
+ * Moore's Voting Algorithm
+ * We will initialize two variables, count and candidate, with 0 and an arbitrary 
+ * value, respectively.Next, we'll traverse the nums array using a pointer i 
+ * starting from the beginning of the nums array.
+ * 
+ * If count is 0, we'll set the candidate as the current element.
+ * If the current element is the same as the candidate, we'll increase count by 1.
+ * If the current element is different from the candidate, we'll decrease count by 1.
+ * 
+ * Upon iterating through all the elements of the nums array, the value of candidate 
+ * will be the answer.
+ * @param {number[]} nums
+ * @return {number}
+ */
+export const majorityElement2 = function(nums) {
+    let count = 0,
+        candidate = 0;
+
+    for( let i = 0; i < nums.length; i++ ) {
+        if( count === 0 ) {
+            candidate = nums[i];
+        }
+
+        if( candidate === nums[i] ) {
+            count++;
+        } else {
+            count--;
+        }
+    }
+
+    return candidate;
+};
