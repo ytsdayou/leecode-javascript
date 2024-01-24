@@ -31,3 +31,34 @@ export const rotate = function(nums, k) {
         }
     }
 };
+
+/**
+ * 1. Reverse the entire array.
+ * 2. Split the array into two parts by slicing it at index k modulo n, where n 
+ *    represents the length of the nums array. The first part consists of elements 
+ *    from index 0 to k - 1, and the second part encompasses elements from index k 
+ *    to the end of the array.Perform a reverse operation on each of the two parts separately.
+ */
+export const rotate2 = function(nums, k) {
+    let n = nums.length;
+        k = k % n;
+
+    if( k === 0 ) return nums;
+    if( n === 1 ) return nums;
+
+    reverse(nums, 0, n - 1);
+    reverse(nums, 0, k - 1);
+    reverse(nums, k, n - 1);
+}
+
+function reverse(nums, start, end) {
+    let n = end - start + 1,
+        t = Math.floor( n / 2 );
+    for( let i = 0; i < t; i++ ) {
+        let j = start + i, 
+            tmp = nums[j];
+        
+        nums[j] = nums[end];
+        nums[end--] = tmp;
+    }
+}
