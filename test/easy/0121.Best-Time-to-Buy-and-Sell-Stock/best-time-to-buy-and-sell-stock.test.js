@@ -2,7 +2,7 @@ import {
     maxProfit , maxProfit2
 } from "../../../solution/easy/0121.Best-Time-to-Buy-and-Sell-Stock/best-time-to-buy-and-sell-stock";
 
-describe("0189.Rotate-Array", () => {
+describe("0121.Best-Time-to-Buy-and-Sell-Stock", () => {
 
     test('Input: prices = [7,1,5,3,6,4], Output: 5', () => {
         expect( maxProfit([7,1,5,3,6,4]) ).toEqual( 5 );

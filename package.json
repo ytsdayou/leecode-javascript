@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0121.Best-Time-to-Buy-and-Sell-Stock/"
+    "test": "jest ./test/medium/0122.Best-Time-to-Buy-and-Sell-Stock-II/"
   },
   "keywords": [
     "leecode",
