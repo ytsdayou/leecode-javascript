@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0045.Jump-Game-II/"
+    "test": "jest ./test/medium/0274.H-Index/"
   },
   "keywords": [
     "leecode",
