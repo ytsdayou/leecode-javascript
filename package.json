@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0134.Gas-Station/"
+    "test": "jest ./test/hard/135. Candy/"
   },
   "keywords": [
-    "leecode",
+    "leetcode",
     "javascript"
   ],
   "author": "JayZeng",
