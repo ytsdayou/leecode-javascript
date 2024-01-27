@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/380. Insert-Delete-GetRandom-O(1)/"
+    "test": "jest ./test/medium/238. Product-of-Array-Except-Self/"
   },
   "keywords": [
     "leecode",
