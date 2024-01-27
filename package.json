@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/135. Candy/"
+    "test": "jest ./test/hard/0042.Trapping-Rain-Water/"
   },
   "keywords": [
     "leetcode",

@@ -1,6 +1,6 @@
 import { candy } from "../../../solution/hard/135. Candy/candy";
 
-describe("0134.Gas-Station", () => {
+describe("135. Candy", () => {
 
     test('Input: ratings = [1,0,2], Output: 5', () => {
         expect(candy([1,0,2])).toEqual(5);
