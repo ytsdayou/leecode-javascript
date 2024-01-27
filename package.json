@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/238. Product-of-Array-Except-Self/"
+    "test": "jest ./test/medium/0134.Gas-Station/"
   },
   "keywords": [
     "leecode",

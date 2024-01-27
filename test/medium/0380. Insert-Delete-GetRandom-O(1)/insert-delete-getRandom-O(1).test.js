@@ -1,6 +1,6 @@
 import { 
     RandomizedSet 
-} from "../../../solution/medium/380. Insert-Delete-GetRandom-O(1)/insert-delete-getRandom-O(1)";
+} from "../../../solution/medium/0380. Insert-Delete-GetRandom-O(1)/insert-delete-getRandom-O(1)";
 
 describe("380. Insert-Delete-GetRandom-O(1)", () => {
 

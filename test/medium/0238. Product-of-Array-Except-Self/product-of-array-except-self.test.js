@@ -1,6 +1,6 @@
 import { 
     productExceptSelf , productExceptSelf2
-} from "../../../solution/medium/238. Product-of-Array-Except-Self/product-of-array-except-self";
+} from "../../../solution/medium/0238. Product-of-Array-Except-Self/product-of-array-except-self";
 
 describe("380. Insert-Delete-GetRandom-O(1)", () => {
 
