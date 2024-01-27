@@ -35,3 +35,42 @@ export const productExceptSelf = function(nums) {
 
     return ans;
 };
+
+/**
+ * NO need to store prefix and suffix
+ * To achieve O(1) extra space complexity, we can utilize a single variable, 'cur', 
+ * initialized to 1, to store either the prefix or suffix product. This approach is 
+ * feasible because we can derive the prefix product of the element at index 'n - 1' 
+ * by obtaining the prefix product of the element at index 'n - 2', which, in turn, 
+ * can be derived from the prefix product of the element at index 'n - 3'. This 
+ * iterative method also applies to obtaining the suffix product.
+ * 
+ * 1. Initialize a result array and fill it with 1.
+ * 2. Traverse the array from left to right, updating the result array with the prefix 
+ *    product at position 'i'.
+ * 3.Traverse the array from right to left, updating the value at position 'i' by 
+ *    multiplying it with the suffix product.
+ * 
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+export const productExceptSelf2 = function(nums) {
+    let n = nums.length,
+        ans = new Array(n).fill(1);
+        
+    let cur = 1;
+    for( let i = 0; i < n; i++ ) {
+        ans[i] *= cur;
+        cur *= nums[i];
+        ans[i] = ans[i] ? ans[i] : 0;
+    }
+
+    cur = 1;
+    for( let i = n - 1; i >= 0; i-- ) {
+        ans[i] *= cur;
+        cur *= nums[i];
+        ans[i] = ans[i] ? ans[i] : 0;
+    }
+
+    return ans;
+}
