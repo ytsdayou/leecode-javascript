@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0013.Roman-to-Integer/"
+    "test": "jest ./test/medium/0012.Integer-to-Roman/"
   },
   "keywords": [
     "leetcode",
