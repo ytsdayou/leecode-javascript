@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/0042.Trapping-Rain-Water/"
+    "test": "jest ./test/easy/0013.Roman-to-Integer/"
   },
   "keywords": [
     "leetcode",
