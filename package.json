@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0058. Length-of-Last-Word/"
+    "test": "jest ./test/easy/0014. Longest-Common-Prefix/"
   },
   "keywords": [
     "leetcode",
