@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0014. Longest-Common-Prefix/"
+    "test": "jest ./test/medium/0151. Reverse-Words-in-a-String/"
   },
   "keywords": [
     "leetcode",
