@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0392.Is-Subsequence/"
+    "test": "jest ./test/medium/0167.Two-Sum-II-Input-array-is-sorted/"
   },
   "keywords": [
     "leetcode",
