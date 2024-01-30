@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0167.Two-Sum-II-Input-array-is-sorted/"
+    "test": "jest ./test/medium/0011.Container-With-Most-Water/"
   },
   "keywords": [
     "leetcode",
@@ -15,8 +15,5 @@
   "devDependencies": {
     "@babel/preset-env": "^7.23.8",
     "jest": "^29.7.0"
-  },
-  "jest": {
-    "testTimeout": 10000
   }
 }
