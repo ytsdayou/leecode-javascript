@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0028.Implement-strStr/"
+    "test": "jest ./test/hard/0068.Text-Justification/"
   },
   "keywords": [
     "leetcode",
