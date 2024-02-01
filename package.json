@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0011.Container-With-Most-Water/"
+    "test": "jest ./test/medium/0209.Minimum-Size-Subarray-Sum/"
   },
   "keywords": [
     "leetcode",
