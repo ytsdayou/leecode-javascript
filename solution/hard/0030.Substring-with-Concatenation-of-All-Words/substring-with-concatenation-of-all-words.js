@@ -47,3 +47,13 @@ export const findSubstring = function(s, words) {
 
     return ret;
 };
+
+/**
+ * sliding window
+ * @param {string} s
+ * @param {string[]} words
+ * @return {number[]}
+ */
+export const findSubstring2 = function(s, words) {
+
+}
