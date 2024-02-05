@@ -1,59 +1,37 @@
 /**
- * @param {string} s
- * @param {string[]} words
- * @return {number[]}
- */
-export const findSubstring = function(s, words) {
-    let o = {}, unit = words[0].length, ret = [];
-
-    for( let i = 0; i < words.length; i++ ) {
-        if( typeof o[words[i]] === 'undefined' ) {
-            o[words[i]] = 0;
-        }
-        o[words[i]] += 1;
-    }
-
-    for( let i = 0; i < s.length; i++ ) {
-        let stringEnd = i + unit * words.length;
-
-        if( stringEnd > s.length ) {
-            break;
-        }
-
-        let copyO = {...o};
-        let checkString = s.substring(i, stringEnd);
-        
-        for( let m = 0; m < checkString.length; m += unit ) {
-            let wordEnd = m + unit;
-            if( wordEnd > checkString.length ) {
-                break;
-            }
-
-            const w = checkString.substring(m, wordEnd);
-            if( copyO[w] ) {
-                copyO[w] -= 1;
-                if( !copyO[w] ) { 
-                    delete copyO[w];
-                }
-            } else {
-                break;
-            }
-        }
-
-        if( Object.keys(copyO).length === 0 ) {
-            ret.push(i);
-        }
-    }
-
-    return ret;
-};
-
-/**
  * sliding window
  * @param {string} s
  * @param {string[]} words
  * @return {number[]}
  */
 export const findSubstring2 = function(s, words) {
+    let o = new Map(), unit = words[0].length, n = words.length, ret = [];
 
+    for( let i = 0; i < n; i++ ) {
+        o.set(words[i], ( o.get(words[i]) || 0 ) + 1 );
+    }
+
+    for( let i = 0; i < unit; i++ ) {
+
+        let cnt = 0, wd = new Map();
+
+        for( let j = i; j + unit <= s.length; j += unit ) {
+            
+            if( j - i >= unit * n ) { // window should shift right
+                const outWord = s.substring(j - unit * n, j - unit * n + unit);
+                wd.set(outWord, ( wd.get(outWord) || 0 ) - 1 );
+                if( o.get(outWord) && wd.get(outWord) < o.get(outWord) ) cnt--;
+            }
+
+            const inWord = s.substring(j, j + unit);
+            wd.set(inWord, ( wd.get(inWord) || 0 ) + 1 );
+
+            if( wd.get(inWord) <= o.get(inWord) ) cnt++;
+
+            if( cnt === n ) ret.push(j - (n - 1) * unit);
+        }
+
+    }
+
+    return ret;
 }
