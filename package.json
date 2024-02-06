@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/0030.Substring-with-Concatenation-of-All-Words/"
+    "test": "jest ./test/hard/0076.Minimum-Window-Substring/"
   },
   "keywords": [
     "leetcode",

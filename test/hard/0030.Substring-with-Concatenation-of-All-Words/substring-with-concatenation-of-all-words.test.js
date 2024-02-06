@@ -2,7 +2,7 @@ import {
     findSubstring2
 } from "../../../solution/hard/0030.Substring-with-Concatenation-of-All-Words/substring-with-concatenation-of-all-words";
 
-describe("0209.Minimum-Size-Subarray-Sum", () => {
+describe("0030.Substring-with-Concatenation-of-All-Words", () => {
 
     test('Input: s = "barfoothefoobarman", words = ["foo","bar"], Output: [0,9]', () => {
         expect( findSubstring2("barfoothefoobarman", ["foo","bar"]) ).toEqual( [0,9] );
