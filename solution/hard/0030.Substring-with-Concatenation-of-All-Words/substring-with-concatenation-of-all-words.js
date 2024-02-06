@@ -1,5 +1,14 @@
 /**
- * sliding window
+ * To optimize this solution, we can utilize a sliding window approach. In the 
+ * general case, we would iterate through the string s s.length times and match 
+ * the word with the array words using sliding window. However, since all the 
+ * strings in the words array are of the same length, we can iterate through s 
+ * only word.length times, as the matching string of the (word.length + 1)th 
+ * iteration will be a substring of the first iteration.In order to reduce the 
+ * time complexity, we can use a hash map to store the appearances of the words, 
+ * and utilize a variable cnt to track the number of successful matches we expect. 
+ * When cnt is equal to the length of the words array, it indicates that we have 
+ * found one of the results.
  * @param {string} s
  * @param {string[]} words
  * @return {number[]}
