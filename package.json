@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0036.Valid-Sudoku/"
+    "test": "jest ./test/medium/0054.Spiral-Matrix/"
   },
   "keywords": [
     "leetcode",
