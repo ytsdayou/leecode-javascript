@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/0076.Minimum-Window-Substring/"
+    "test": "jest ./test/medium/0036.Valid-Sudoku/"
   },
   "keywords": [
     "leetcode",
