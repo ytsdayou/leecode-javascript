@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0048.Rotate-Image/"
+    "test": "jest ./test/medium/0073.Set-Matrix-Zeroes/"
   },
   "keywords": [
     "leetcode",
