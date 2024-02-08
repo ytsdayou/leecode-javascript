@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0073.Set-Matrix-Zeroes/"
+    "test": "jest ./test/medium/0289. Game-of-Life/"
   },
   "keywords": [
     "leetcode",
