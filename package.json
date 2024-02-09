@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0383.Ransom-Note/"
+    "test": "jest ./test/easy/0205.Isomorphic-Strings/"
   },
   "keywords": [
     "leetcode",
