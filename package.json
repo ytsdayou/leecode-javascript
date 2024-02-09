@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0289. Game-of-Life/"
+    "test": "jest ./test/easy/0383.Ransom-Note/"
   },
   "keywords": [
     "leetcode",
