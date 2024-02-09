@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0290.Word-Pattern/"
+    "test": "jest ./test/easy/0242.Valid-Anagram/"
   },
   "keywords": [
     "leetcode",
