@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0219.Contains-Duplicate-II/"
+    "test": "jest ./test/medium/0128.Longest-Consecutive-Sequence/"
   },
   "keywords": [
     "leetcode",
