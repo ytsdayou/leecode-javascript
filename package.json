@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0128.Longest-Consecutive-Sequence/"
+    "test": "jest ./test/easy/0228.Summary-Ranges/"
   },
   "keywords": [
     "leetcode",

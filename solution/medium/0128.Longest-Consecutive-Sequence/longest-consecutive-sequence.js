@@ -1,4 +1,7 @@
 /**
+ * If an element don't have a left neighbor it mean that this element will be the
+ * first element in sequence, then we can find the length of this sequence using a
+ * while loop
  * @param {number[]} nums
  * @return {number}
  */
