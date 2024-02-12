@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0228.Summary-Ranges/"
+    "test": "jest ./test/medium/0056.Merge-Intervals/"
   },
   "keywords": [
     "leetcode",
