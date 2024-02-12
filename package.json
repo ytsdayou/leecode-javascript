@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0049.Group-Anagrams/"
+    "test": "jest ./test/easy/0202.Happy-Number/"
   },
   "keywords": [
     "leetcode",
