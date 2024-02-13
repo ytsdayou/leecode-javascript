@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/452.Minimum-Number-of-Arrows-to-Burst-Balloons/"
+    "test": "jest ./test/easy/0020.Valid-Parentheses/"
   },
   "keywords": [
     "leetcode",
