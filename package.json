@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0057.Insert-Interval/"
+    "test": "jest ./test/medium/452.Minimum-Number-of-Arrows-to-Burst-Balloons/"
   },
   "keywords": [
     "leetcode",
