@@ -2,7 +2,7 @@ import {
     MinStack 
 } from "../../../solution/medium/0155.Min-Stack/min-stack";
 
-describe("0020.Valid-Parentheses", () => {
+describe("0155.Min-Stack", () => {
 
     test('Input: ["MinStack","push","push","push","getMin","pop","top","getMin"]', () => {
    

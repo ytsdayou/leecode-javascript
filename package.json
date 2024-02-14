@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0155.Min-Stack/"
+    "test": "jest ./test/medium/0150.Evaluate-Reverse-Polish-Notation/"
   },
   "keywords": [
     "leetcode",
