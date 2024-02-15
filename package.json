@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0141.Linked-List-Cycle/"
+    "test": "jest ./test/easy/0021.Merge-Two-Sorted-Lists/"
   },
   "keywords": [
     "leetcode",
