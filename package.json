@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0138.Copy-List-With-Random-Pointer/"
+    "test": "jest ./test/medium/0092.Reverse-Linked-List-II/"
   },
   "keywords": [
     "leetcode",
