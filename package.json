@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0019.Remove-Nth-Node-From-End-of-List/"
+    "test": "jest ./test/medium/0082.Remove-Duplicates-from-Sorted-List-II/"
   },
   "keywords": [
     "leetcode",
