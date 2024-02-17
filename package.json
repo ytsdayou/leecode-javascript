@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0092.Reverse-Linked-List-II/"
+    "test": "jest ./test/hard/0025.Reverse-Nodes-in-k-Group/"
   },
   "keywords": [
     "leetcode",
