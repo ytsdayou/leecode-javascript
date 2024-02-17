@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0082.Remove-Duplicates-from-Sorted-List-II/"
+    "test": "jest ./test/medium/0061.Rotate-List/"
   },
   "keywords": [
     "leetcode",
