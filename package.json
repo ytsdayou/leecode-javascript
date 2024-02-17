@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/0025.Reverse-Nodes-in-k-Group/"
+    "test": "jest ./test/medium/0019.Remove-Nth-Node-From-End-of-List/"
   },
   "keywords": [
     "leetcode",
