@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0061.Rotate-List/"
+    "test": "jest ./test/medium/0086.Partition-List/"
   },
   "keywords": [
     "leetcode",
