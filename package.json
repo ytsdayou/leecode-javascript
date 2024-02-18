@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0146.LRU-Cache/"
+    "test": "jest ./test/easy/0104.Maximum-Depth-of-Binary-Tree/"
   },
   "keywords": [
     "leetcode",
