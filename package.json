@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0086.Partition-List/"
+    "test": "jest ./test/medium/0146.LRU-Cache/"
   },
   "keywords": [
     "leetcode",
