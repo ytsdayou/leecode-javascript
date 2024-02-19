@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0104.Maximum-Depth-of-Binary-Tree/"
+    "test": "jest ./test/easy/0100.Same-Tree/"
   },
   "keywords": [
     "leetcode",
