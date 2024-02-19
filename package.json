@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0100.Same-Tree/"
+    "test": "jest ./test/easy/0226.Invert-Binary-Tree/"
   },
   "keywords": [
     "leetcode",
