@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0101.Symmetric-Tree/"
+    "test": "jest ./test/medium/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/"
   },
   "keywords": [
     "leetcode",
