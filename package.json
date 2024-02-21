@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0114.Flatten-Binary-Tree-to-Linked-List/"
+    "test": "jest ./test/easy/0112.Path-Sum/"
   },
   "keywords": [
     "leetcode",

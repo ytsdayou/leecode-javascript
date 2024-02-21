@@ -4,18 +4,39 @@ export const TreeNode = function(val, left, right) {
     this.right = (right===undefined ? null : right)
 }
 
-export const ArrayToBinaryTree = function(arr) {
-    return getNode(arr, 0);
-}
+export const ArrayToBinaryTree = function(nums) {
+    if (nums === null || nums.length === 0) return null;
+  
+    let root = new TreeNode(nums[0]);
+    let nodeQueen = [root];
+    let lastIndex = 0;
 
-function getNode(arr, i) {
-    if( i >= arr.length || arr[i] === null ) return null;
+    while( nodeQueen.length ) {
+        const n = nodeQueen.length;
 
-    let node = new TreeNode(arr[i]);
-    node.left = getNode(arr, 2 * i + 1);
-    node.right = getNode(arr, 2 * i + 2);
+        for( let i = 0; i < n; i++ ) {
+            const node = nodeQueen.shift();
 
-    return node;
+            const nextLeftIndex = lastIndex + i * 2 + 1;
+            const nextRightIndex = nextLeftIndex + 1;
+
+            if( nextLeftIndex < nums.length && nums[nextLeftIndex] !== null ) {
+                const leftChild = new TreeNode(nums[nextLeftIndex]);
+                node.left = leftChild;
+                nodeQueen.push(leftChild);
+            }
+
+            if( nextLeftIndex < nums.length && nums[nextRightIndex] !== null ) {
+                const rightChild = new TreeNode(nums[nextRightIndex]);
+                node.right = rightChild;
+                nodeQueen.push(rightChild);
+            }
+        }
+
+        lastIndex += n * 2;
+    }
+  
+    return root;
 }
 
 export const Node = function(val, left, right, next) {
