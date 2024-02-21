@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal/"
+    "test": "jest ./test/medium/0117.Populating-Next-Right-Pointers-In-Each-Node-ii/"
   },
   "keywords": [
     "leetcode",
