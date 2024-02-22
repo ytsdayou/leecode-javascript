@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/0124.Binary-Tree-Maximum-Path-Sum/"
+    "test": "jest ./test/medium/0173.Binary-Search-Tree-Iterator/"
   },
   "keywords": [
     "leetcode",

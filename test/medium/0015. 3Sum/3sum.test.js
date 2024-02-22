@@ -1,4 +1,4 @@
-import { threeSum } from "../../../solution/medium/15. 3Sum/3sum";
+import { threeSum } from "../../../solution/medium/0015. 3Sum/3sum";
 
 describe("15. 3Sum", () => {
 

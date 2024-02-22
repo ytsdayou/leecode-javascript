@@ -1,6 +1,6 @@
 import { 
     findMinArrowShots 
-} from "../../../solution/medium/452.Minimum-Number-of-Arrows-to-Burst-Balloons/minimum-number-of-arrows-to-burst-balloons";
+} from "../../../solution/medium/0452.Minimum-Number-of-Arrows-to-Burst-Balloons/minimum-number-of-arrows-to-burst-balloons";
 
 describe("452.Minimum-Number-of-Arrows-to-Burst-Balloons", () => {
 
