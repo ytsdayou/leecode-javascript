@@ -26,7 +26,7 @@ export const ArrayToBinaryTree = function(nums) {
                 nodeQueen.push(leftChild);
             }
 
-            if( nextLeftIndex < nums.length && nums[nextRightIndex] !== null ) {
+            if( nextRightIndex < nums.length && nums[nextRightIndex] !== null ) {
                 const rightChild = new TreeNode(nums[nextRightIndex]);
                 node.right = rightChild;
                 nodeQueen.push(rightChild);

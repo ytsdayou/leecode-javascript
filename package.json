@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0173.Binary-Search-Tree-Iterator/"
+    "test": "jest ./test/easy/0222.Count-Complete-Tree-Nodes/"
   },
   "keywords": [
     "leetcode",
