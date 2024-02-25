@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0236.Lowest-Common-Ancestor-of-a-Binary-Tree/"
+    "test": "jest ./test/medium/0199.Binary-Tree-Right-Side-View/"
   },
   "keywords": [
     "leetcode",

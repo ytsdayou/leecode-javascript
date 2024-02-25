@@ -3,7 +3,7 @@ import {
     lowestCommonAncestor 
 } from "../../../solution/medium/0236.Lowest-Common-Ancestor-of-a-Binary-Tree/solution";
 
-describe("0173.Binary-Search-Tree-Iterator", () => {
+describe("0236.Lowest-Common-Ancestor-of-a-Binary-Tree", () => {
 
     test('Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1, Output: 3', () => {
         const root = ArrayToBinaryTree([3,5,1,6,2,0,8,null,null,7,4]);
