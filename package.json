@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0222.Count-Complete-Tree-Nodes/"
+    "test": "jest ./test/medium/0236.Lowest-Common-Ancestor-of-a-Binary-Tree/"
   },
   "keywords": [
     "leetcode",
