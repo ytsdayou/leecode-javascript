@@ -3,7 +3,7 @@ import {
     levelOrder 
 } from "../../../solution/medium/0102.Binary-Tree-Level-Order-Traversal/solution";
 
-describe("0637.Average-of-Levels-in-Binary-Tree", () => {
+describe("0102.Binary-Tree-Level-Order-Traversal", () => {
 
     test('Input: root = [3,9,20,null,null,15,7], Output: [[3],[9,20],[15,7]]', () => {
         const root = ArrayToBinaryTree([3,9,20,null,null,15,7]);

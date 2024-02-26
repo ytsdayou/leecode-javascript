@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0102.Binary-Tree-Level-Order-Traversal/"
+    "test": "jest ./test/medium/0103.Binary-Tree-Zigzag-Level-Order-Traversal/"
   },
   "keywords": [
     "leetcode",
