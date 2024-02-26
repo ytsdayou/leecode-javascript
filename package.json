@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0199.Binary-Tree-Right-Side-View/"
+    "test": "jest ./test/easy/0637.Average-of-Levels-in-Binary-Tree/"
   },
   "keywords": [
     "leetcode",
