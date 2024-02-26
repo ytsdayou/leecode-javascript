@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0637.Average-of-Levels-in-Binary-Tree/"
+    "test": "jest ./test/medium/0102.Binary-Tree-Level-Order-Traversal/"
   },
   "keywords": [
     "leetcode",
