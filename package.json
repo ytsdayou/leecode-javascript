@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0103.Binary-Tree-Zigzag-Level-Order-Traversal/"
+    "test": "jest ./test/easy/0530.Minimum-Absolute-Difference-in-BST/"
   },
   "keywords": [
     "leetcode",
