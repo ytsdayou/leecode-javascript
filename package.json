@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0230.Kth-Smallest-Element-in-a-BST/"
+    "test": "jest ./test/medium/0098.Validate-Binary-Search-Tree/"
   },
   "keywords": [
     "leetcode",
