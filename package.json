@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0530.Minimum-Absolute-Difference-in-BST/"
+    "test": "jest ./test/medium/0230.Kth-Smallest-Element-in-a-BST/"
   },
   "keywords": [
     "leetcode",
