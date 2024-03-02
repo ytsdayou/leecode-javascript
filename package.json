@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0130.Surrounded-Regions/"
+    "test": "jest ./test/medium/0133. Clone-Graph/"
   },
   "keywords": [
     "leetcode",
