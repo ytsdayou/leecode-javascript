@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0399.Evaluate-Division/"
+    "test": "jest ./test/medium/0207.Course-Schedule/"
   },
   "keywords": [
     "leetcode",
