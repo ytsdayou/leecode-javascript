@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0133. Clone-Graph/"
+    "test": "jest ./test/medium/0399.Evaluate-Division/"
   },
   "keywords": [
     "leetcode",
