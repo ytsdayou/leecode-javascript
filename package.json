@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/0127.Word-Ladder/"
+    "test": "jest ./test/medium/0208.Implement-Trie-Prefix-Tree/"
   },
   "keywords": [
     "leetcode",
