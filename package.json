@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0433.Minimum-Genetic-Mutation/"
+    "test": "jest ./test/hard/0127.Word-Ladder/"
   },
   "keywords": [
     "leetcode",
