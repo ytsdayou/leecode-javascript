@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0211.Design-Add-and-Search-Words-Data-Structure/"
+    "test": "jest ./test/medium/0212.Word-Search-II/"
   },
   "keywords": [
     "leetcode",
