@@ -1,52 +1,56 @@
-import { TrieNode } from "../../../structures/TrieNode";
-
 /**
  * @param {character[][]} board
  * @param {string[]} words
  * @return {string[]}
  */
 export const findWords = function(board, words) {
-    let root = new TrieNode();
-    for(let i = 0; i < words.length; i++) {
-        root.addWord(words[i]);
+    let wordMap = {}
+
+    function strToMap(node, str, index) {
+        if (str.length == index) {
+            node.end = true
+            return
+        }
+        if (node[str[index]] == undefined) node[str[index]] = {}
+        strToMap(node[str[index]], str, index + 1)
     }
 
+    words.forEach((val) => {
+        strToMap(wordMap, val, 0)
+    })
+
     let rows = board.length, cols = board[0].length,
-        visits = new Set(), ret = new Set();
+        visits = new Array(board.length).fill(0).map(() => new Array(board[0].length).fill(0)), 
+        resultMap = new Map(), outArray = [];
 
     for( let i = 0; i < rows; i++ ) {
         for(let j = 0; j < cols; j++) {
-            dfs(i, j, root, "");
+            dfs(i, j, wordMap, "");
         }
     }
 
-    return Array.from(ret);
+    return outArray;
 
     function dfs(r, c, node, word) {
-        if( r === rows || c === cols || r < 0 || c < 0
-            || visits.has(getKey(r, c))  
-            || !node.children.has(board[r][c])
-        ) {
+        let char = board[r][c];
+        if( !node[char] ) {
             return;
         }
 
-        visits.add(getKey(r, c));
+        visits[r][c] = 1
 
-        node = node.children.get(board[r][c]);
-        word += board[r][c];
-        if( node.endOfWord ) {
-            ret.add(word);
+        node = node[char];
+        word += char;
+        if( node.end ) {
+            if (!resultMap.get(word)) outArray.push(word)
+            resultMap.set(word, true)
         }
 
-        dfs(r + 1, c, node, word);
-        dfs(r - 1, c, node, word);
-        dfs(r, c + 1, node, word);
-        dfs(r, c - 1, node, word);
+        if( r - 1 >= 0 && visits[r - 1][c] === 0 ) dfs(r - 1, c, node, word);
+        if( r + 1 < rows && visits[r + 1][c] === 0 ) dfs(r + 1, c, node, word);
+        if( c - 1 >= 0 && visits[r][c - 1] === 0 ) dfs(r, c - 1, node, word);
+        if( c + 1 < cols && visits[r][c + 1] === 0 ) dfs(r, c + 1, node, word);
 
-        visits.delete(getKey(r, c));
-    }
-
-    function getKey(r, c) {
-        return [r,c].join("|");
+        visits[r][c] = 0
     }
 };
