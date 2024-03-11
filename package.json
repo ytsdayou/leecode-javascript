@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0017.Letter-Combinations-of-a-Phone-Number/"
+    "test": "jest ./test/medium/0077.Combinations/"
   },
   "keywords": [
     "leetcode",
