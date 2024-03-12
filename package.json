@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0077.Combinations/"
+    "test": "jest ./test/medium/0046. Permutations/"
   },
   "keywords": [
     "leetcode",
