@@ -1,6 +1,6 @@
 import { 
     sortedArrayToBST 
-} from "../../../solution/medium/0108.Convert-Sorted-Array-to-Binary-Search-Tree/solution";
+} from "../../../solution/easy/0108.Convert-Sorted-Array-to-Binary-Search-Tree/solution";
 import { ArrayToBinaryTree } from "../../../structures/TreeNode";
 
 describe("0108.Convert-Sorted-Array-to-Binary-Search-Tree", () => {

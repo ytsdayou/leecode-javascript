@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0108.Convert-Sorted-Array-to-Binary-Search-Tree/"
+    "test": "jest ./test/medium/0148. Sort-List/"
   },
   "keywords": [
     "leetcode",
