@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0035. Search-Insert-Position/"
+    "test": "jest ./test/medium/0074. Search-a-2D-Matrix/"
   },
   "keywords": [
     "leetcode",
