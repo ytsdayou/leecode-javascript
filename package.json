@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0053. Maximum-Subarray/"
+    "test": "jest ./test/medium/0918. Maximum-Sum-Circular-Subarray/"
   },
   "keywords": [
     "leetcode",
