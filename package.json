@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0427. Construct-Quad-Tree/"
+    "test": "jest ./test/hard/0023. Merge-k-Sorted-Lists/"
   },
   "keywords": [
     "leetcode",
