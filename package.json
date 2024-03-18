@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/0023. Merge-k-Sorted-Lists/"
+    "test": "jest ./test/medium/0053. Maximum-Subarray/"
   },
   "keywords": [
     "leetcode",
