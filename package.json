@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0162. Find-Peak-Element/"
+    "test": "jest ./test/medium/0033. Search-in-Rotated-Sorted-Array/"
   },
   "keywords": [
     "leetcode",
