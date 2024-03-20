@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/easy/0070. Climbing-Stairs/"
+    "test": "jest ./test/medium/0198. House-Robber/"
   },
   "keywords": [
     "leetcode",
