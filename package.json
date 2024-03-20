@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0153. Find-Minimum-in-Rotated-Sorted-Array/"
+    "test": "jest ./test/easy/0070. Climbing-Stairs/"
   },
   "keywords": [
     "leetcode",
