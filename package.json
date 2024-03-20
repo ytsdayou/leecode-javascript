@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0033. Search-in-Rotated-Sorted-Array/"
+    "test": "jest ./test/medium/0034. Find-First-and-Last-Position-of-Element-in-Sorted-Array/"
   },
   "keywords": [
     "leetcode",
