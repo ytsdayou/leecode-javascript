@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0139. Word-Break/"
+    "test": "jest ./test/medium/0322. Coin-Change/"
   },
   "keywords": [
     "leetcode",
