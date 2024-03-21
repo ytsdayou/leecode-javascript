@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0063. Unique-Paths-II/"
+    "test": "jest ./test/medium/0005. Longest-Palindromic-Substring/"
   },
   "keywords": [
     "leetcode",
