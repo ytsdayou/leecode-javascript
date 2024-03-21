@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0064. Minimum-Path-Sum/"
+    "test": "jest ./test/medium/0063. Unique-Paths-II/"
   },
   "keywords": [
     "leetcode",
