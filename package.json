@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0322. Coin-Change/"
+    "test": "jest ./test/medium/0300. Longest-Increasing-Subsequence/"
   },
   "keywords": [
     "leetcode",
