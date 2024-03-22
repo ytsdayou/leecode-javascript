@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0097. Interleaving-String/"
+    "test": "jest ./test/medium/0072. Edit-Distance/"
   },
   "keywords": [
     "leetcode",
