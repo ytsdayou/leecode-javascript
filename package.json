@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0005. Longest-Palindromic-Substring/"
+    "test": "jest ./test/medium/0097. Interleaving-String/"
   },
   "keywords": [
     "leetcode",
