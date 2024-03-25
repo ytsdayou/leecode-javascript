@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/hard/0188. Best-Time-to-Buy-and-Sell-Stock-IV/"
+    "test": "jest ./test/medium/0221. Maximal-Square/"
   },
   "keywords": [
     "leetcode",
