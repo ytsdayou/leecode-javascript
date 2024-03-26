@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0221. Maximal-Square/"
+    "test": "jest ./test/medium/0215. Kth-Largest-Element-in-an-Array/"
   },
   "keywords": [
     "leetcode",
