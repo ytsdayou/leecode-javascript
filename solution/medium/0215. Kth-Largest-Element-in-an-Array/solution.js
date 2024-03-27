@@ -12,11 +12,11 @@ export const findKthLargest = function(nums, k) {
         heap.insert(nums[i]);
     }
     for (let i = k; i < nums.length; i++) {
-        if (nums[i] > heap.getMin()) {
+        if (nums[i] > heap.getMin().val) {
             heap.pop();
             heap.insert(nums[i]);
         }
     }
-    return heap.getMin();
+    return heap.getMin().val;
 };
 

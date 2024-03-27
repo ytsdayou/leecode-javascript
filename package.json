@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./test/medium/0215. Kth-Largest-Element-in-an-Array/"
+    "test": "jest ./test/hard/0502. IPO/"
   },
   "keywords": [
     "leetcode",

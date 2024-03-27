@@ -21,7 +21,7 @@ export class MinHeap {
 
     nodeUp() {
         let index = this.heap.length - 1;
-        while (this.parent(index) >= 0 && this.heap[this.parent(index)] > this.heap[index]) {
+        while (this.parent(index) >= 0 && this.heap[this.parent(index)].val > this.heap[index].val) {
             this.swap(this.parent(index), index);
             index = this.parent(index);
         }
@@ -32,10 +32,10 @@ export class MinHeap {
         while(this.leftChild(index) < this.heap.length) {
             let smallerChildIndex = this.leftChild(index),
                 rightIndex = this.rightChild(index);
-            if(rightIndex < this.heap.length && this.heap[rightIndex] < this.heap[smallerChildIndex] ) {
+            if(rightIndex < this.heap.length && this.heap[rightIndex].val < this.heap[smallerChildIndex].val ) {
                 smallerChildIndex = rightIndex;
             }
-            if(this.heap[index] < this.heap[smallerChildIndex]) {
+            if(this.heap[index].val < this.heap[smallerChildIndex].val) {
                 break;
             }
             this.swap(index, smallerChildIndex);
@@ -43,8 +43,13 @@ export class MinHeap {
         }
     }
 
-    insert(val) {
-        this.heap.push(val);
+    insert(node) {
+        if(typeof node === 'number') {
+            node = {
+                val: node
+            }
+        }
+        this.heap.push(node);
         this.nodeUp();
     }
 
@@ -60,5 +65,9 @@ export class MinHeap {
 
     getMin() {
         return this.heap[0];
+    }
+
+    getSize() {
+        return this.heap.length;
     }
 }
