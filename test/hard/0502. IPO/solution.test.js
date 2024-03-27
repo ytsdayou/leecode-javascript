@@ -2,13 +2,13 @@ import { findMaximizedCapital } from "../../../solution/hard/0502. IPO/solution"
 
 describe("0215. Kth-Largest-Element-in-an-Array", () => {
     
-    // test('Input: k = 2, w = 0, profits = [1,2,3], capital = [0,1,1], Output: 4', () => {
-    //     expect(findMaximizedCapital(2, 0, [1,2,3], [0,1,1])).toEqual(4);
-    // });
+    test('Input: k = 2, w = 0, profits = [1,2,3], capital = [0,1,1], Output: 4', () => {
+        expect(findMaximizedCapital(2, 0, [1,2,3], [0,1,1])).toEqual(4);
+    });
 
-    // test('Input: k = 3, w = 0, profits = [1,2,3], capital = [0,1,2], Output: 6', () => {
-    //     expect(findMaximizedCapital(3, 0, [1,2,3], [0,1,2])).toEqual(6);
-    // });
+    test('Input: k = 3, w = 0, profits = [1,2,3], capital = [0,1,2], Output: 6', () => {
+        expect(findMaximizedCapital(3, 0, [1,2,3], [0,1,2])).toEqual(6);
+    });
 
     test('Input: k = 111, w = 12, profits = [1,2,3], capital = [0,1,1], Output: 120730', () => {
         expect(findMaximizedCapital(
